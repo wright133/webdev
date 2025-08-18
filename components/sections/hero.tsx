@@ -85,7 +85,7 @@ export function Hero() {
                   }}
                   transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut", delay: 1.5 }}
                 >
-                  AI superpowers
+                  JavaScript superpowers
                 </motion.span>
                 .
               </motion.h1>
@@ -174,7 +174,7 @@ export function Hero() {
                 whileHover={{ scale: 1.05, rotateY: 5 }}
               >
                 <img
-                  src="/ian-wright-web-developer-portrait.png"
+                  src="/ian-wright-images/ian-wright-background-copy.png"
                   alt="Ian Wright - Full-Stack Developer"
                   className="w-full h-full object-cover"
                 />

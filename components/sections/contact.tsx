@@ -179,7 +179,7 @@ export function Contact() {
                   transition={{ duration: 0.3 }}
                 >
                   <img
-                    src="/ian-wright-web-developer-portrait.png"
+                    src="/ian-wright-images/ian-wright-background-copy-flipped.png"
                     alt="Ian Wright - Full-Stack Developer"
                     className="w-full h-full object-cover"
                   />
