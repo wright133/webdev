@@ -147,7 +147,7 @@ export function About() {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.5 }}
             >
-              My Journey
+              My Journey (From 2021)
             </motion.h3>
             <div className="space-y-6">
               {timeline.map((item, index) => (
@@ -176,7 +176,7 @@ export function About() {
                           whileHover={{ rotate: 360, scale: 1.1 }}
                           transition={{ duration: 0.6, type: "spring" }}
                         >
-                          {item.year.slice(-2)}
+                          '{item.year.slice(-2)}
                         </motion.div>
                       </div>
                       <div>

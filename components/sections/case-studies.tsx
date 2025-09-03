@@ -10,20 +10,36 @@ import { ArrowRight } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Local Restaurant Rebuild",
+    title: "Custom Web Application for a startup",
     category: "Real Client Project",
     description:
-      "Transformed a 3-year-old restaurant website into a modern, mobile-first experience with online ordering integration.",
-    problem: "Outdated design, poor mobile experience, no online ordering",
-    solution: "Modern React rebuild with integrated ordering system and SEO optimization",
-    results: ["40% increase in online orders", "60% improvement in mobile conversions", "85% faster page load times"],
-    techStack: ["Next.js", "Tailwind CSS", "Stripe", "Sanity CMS"],
+      "An information management system that facilitates efficient property management.",
+    problem: "Outdated traditional methods, poor property management, disorganized information handling",
+    solution: "Modern React-powered build with integrated database and payment APIs for rent collection",
+    results: ["60% increase in efficiency","Better financial accuracy", "Streamlined experience for end-users (tenants & property owners)"],
+    techStack: ["Next.js", "Tailwind CSS", "Stripe"],
     oldImage: "/outdated-restaurant-website-grayscale.png",
     newImage: "/modern-restaurant-website-purple.png",
     featured: true,
+    rebuild: false, 
   },
   {
     id: 2,
+    title: "Personal Brand Site",
+    category: "Real Client Project",
+    description:
+      "Portfolio website for a legal professional with great UI/UX and color theme.",
+    problem: "Legal professional needed to improve their online presence.",
+    solution: "A stunning interactive portfolio with a great UI/UX for the specific industry.",
+    results: ["50% increase in inquiries", "Stronger personal brand", "A wider audience"],
+    techStack: ["Next.js", "Three.js", "Tailwind CSS", "Vercel"],
+    oldImage: "/basic-portfolio-grayscale.png",
+    newImage: "/purple-creative-portfolio.png",
+    featured: false,
+    rebuild: false, 
+  },
+  {
+    id: 3,
     title: "SaaS Landing Page",
     category: "Demo Project",
     description:
@@ -35,20 +51,7 @@ const projects = [
     oldImage: "/placeholder-e428y.png",
     newImage: "/modern-saas-landing-page-purple.png",
     featured: false,
-  },
-  {
-    id: 3,
-    title: "Personal Brand Site",
-    category: "Demo Project",
-    description:
-      "Portfolio website for a fictional creative professional with interactive galleries and smooth animations.",
-    problem: "Creative professional needed modern portfolio presence",
-    solution: "Interactive portfolio with smooth animations and optimized image galleries",
-    results: ["50% increase in inquiries", "3x longer session duration", "Mobile-first design"],
-    techStack: ["Next.js", "Three.js", "Tailwind CSS", "Vercel"],
-    oldImage: "/basic-portfolio-grayscale.png",
-    newImage: "/purple-creative-portfolio.png",
-    featured: false,
+    rebuild: false, 
   },
   {
     id: 4,
@@ -63,6 +66,7 @@ const projects = [
     oldImage: "/old-ecommerce-website-grayscale.png",
     newImage: "/modern-ecommerce-purple.png",
     featured: false,
+    rebuild: false, 
   },
 ]
 
@@ -95,7 +99,7 @@ export function CaseStudies() {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Real client transformations and demo projects showcasing modern web development with AI-powered efficiency.
+            Real client transformations and demo projects showcasing modern web development.
           </motion.p>
         </motion.div>
 
