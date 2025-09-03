@@ -12,15 +12,15 @@ const skills = [
   "Node.js",
   "Python",
   "MySQL",
-  "PostgreSQL",
+  // "PostgreSQL",
   "MongoDB",
   "Framer Motion",
   "Three.js",
   "Vercel",
-  "AWS",
-  "Docker",
+  // "AWS",
+  // "Docker",
   "Git",
-  "Figma",
+  // "Figma",
   "AI Integration",
   "API Development",
 ]
@@ -29,7 +29,7 @@ const timeline = [
   {
     year: "2021",
     title: "First Client Project",
-    description: "Built my first professional website for a local business",
+    description: "Built my first professional website, a custom web application for a startup.",
   },
   {
     year: "2022",
@@ -42,9 +42,9 @@ const timeline = [
     description: "Started incorporating AI tools into development workflow",
   },
   {
-    year: "2024",
-    title: "AI-Powered Rebuilds",
-    description: "Now rebuilding client sites with cutting-edge AI superpowers",
+    year: "2025",
+    title: "AI-Powered Full Stack Development",
+    description: "Now building and remastering client sites with modern tech stacks and intergrating AI-powered solutions where necessary.",
   },
 ]
 
