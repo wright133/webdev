@@ -13,8 +13,8 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Ian Wright - Full-Stack Developer & AI-Powered Web Solutions",
   description:
-    "Premium web developer specializing in React, Next.js, and modern web stacks. I design, build, and ship revenue-driving websites fast — with AI superpowers.",
-  generator: "v0.app",
+    "Premium web developer specializing in React, Next.js, and modern web stacks. I design, build, and ship revenue-driving websites fast — with JavaScript superpowers.",
+  // generator: "v0.app",
 }
 
 export default function RootLayout({
