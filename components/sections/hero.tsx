@@ -110,21 +110,30 @@ export function Hero() {
                 whileTap={{ scale: 0.95 }}
                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
               >
-                <Button
-                  size="lg"
-                  className="gradient-purple text-white hover:opacity-90 transition-all duration-300 glow-purple hover:glow-purple-strong group w-full sm:w-auto"
-                  onClick={() => window.open("https://calendly.com/ianwright", "_blank")}
-                >
-                  <Calendar className="mr-2 h-5 w-5" />
-                  Book a Call
-                  <motion.div
-                    className="ml-2"
-                    animate={{ x: [0, 4, 0] }}
-                    transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
+                <a
+                    href="https://calendly.com/thewian27/website-design-consultancy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white"
                   >
-                    <ArrowRight className="h-5 w-5" />
-                  </motion.div>
-                </Button>
+                    <Button
+                      size="lg"
+                      className="gradient-purple text-white hover:opacity-90 transition-all duration-300 glow-purple hover:glow-purple-strong group w-full sm:w-auto"
+                      onClick={() => window.open("https://calendly.com/thewian27/website-design-consultancy", "_blank")}
+                    >
+                    <Calendar className="mr-2 h-5 w-5" />
+                    Book a Call
+                    
+                    <motion.div
+                      className="ml-2"
+                      animate={{ x: [0, 4, 0] }}
+                      transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
+                    >
+                      <ArrowRight className="h-5 w-5" />
+                    </motion.div>
+                  </Button>
+                </a>
+                
               </motion.div>
 
               <motion.div

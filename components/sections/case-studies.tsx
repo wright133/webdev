@@ -209,7 +209,7 @@ export function CaseStudies() {
                         transition={{ type: "spring", stiffness: 400, damping: 17 }}
                       >
                         <Button className="gradient-purple text-white hover:opacity-90 group">
-                          View Case Study
+                          Visit Website
                           <motion.div
                             className="ml-2"
                             animate={{ x: hoveredProject === project.id ? [0, 5, 0] : 0 }}

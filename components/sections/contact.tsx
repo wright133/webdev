@@ -120,13 +120,39 @@ export function Contact() {
                     <p className="text-muted-foreground text-sm mb-4">
                       Book a 30-minute discovery call to discuss your project requirements and goals.
                     </p>
-                    <Button
+                    {/* <Button
                       className="gradient-purple text-white hover:opacity-90 group"
-                      onClick={() => window.open("https://calendly.com/ianwright", "_blank")}
+                      onClick={() => window.open("https://calendly.com/thewian27/website-design-consultancy", "_blank")}
                     >
                       Book Now
                       <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                    </Button>
+                    </Button> */}
+
+
+                    <a
+                        href="https://calendly.com/thewian27/website-design-consultancy"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white"
+                    >
+                        <Button
+                          size="lg"
+                          className="gradient-purple text-white hover:opacity-90 transition-all duration-300 glow-purple hover:glow-purple-strong group w-full sm:w-auto"
+                          onClick={() => window.open("https://calendly.com/thewian27/website-design-consultancy", "_blank")}
+                        >
+                        <Calendar className="mr-2 h-5 w-5" />
+                        Book Now
+                        
+                        <motion.div
+                          className="ml-2"
+                          animate={{ x: [0, 4, 0] }}
+                          transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
+                        >
+                          <ArrowRight className="h-5 w-5" />
+                        </motion.div>
+                      </Button>
+                    </a>
+
                   </div>
                 </div>
               </CardContent>
@@ -149,7 +175,7 @@ export function Contact() {
                       className="border-primary/50 text-primary hover:bg-primary/10 hover:border-primary group bg-transparent"
                       onClick={() => (window.location.href = "mailto:thewian27@gmail.com")}
                     >
-                      thewian27@gmail.com
+                      Compose an email here
                       <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                     </Button>
                   </div>
