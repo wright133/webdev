@@ -29,14 +29,16 @@ const skillCategories = [
     skills: [
       { name: "Vercel/AWS", level: 90, icon: "☁️" },
       { name: "Git/GitHub", level: 95, icon: "📚" },
-      { name: "Docker", level: 75, icon: "🐳" },
-      { name: "Figma", level: 80, icon: "🎯" },
+      { name: "WordPress", level: 98, icon: "🌐" }, 
+      // { name: "Docker", level: 75, icon: "🐳" },
+      // { name: "Figma", level: 80, icon: "🎯" },
     ],
   },
   {
     title: "AI & Modern Web",
     skills: [
       { name: "AI Integration", level: 88, icon: "🤖" },
+      { name: "p5.js", level: 90, icon: "🎮" },
       { name: "Three.js", level: 78, icon: "🎮" },
       { name: "Performance Optimization", level: 92, icon: "⚡" },
       { name: "SEO/Analytics", level: 85, icon: "📊" },

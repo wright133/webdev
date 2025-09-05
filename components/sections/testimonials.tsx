@@ -26,6 +26,7 @@ const testimonials = [
     rating: 5,
     image: "/professional-man-headshot.png",
   },
+  /*
   {
     id: 3,
     name: "Emily Rodriguez",
@@ -46,6 +47,7 @@ const testimonials = [
     rating: 5,
     image: "/business-man-headshot.png",
   },
+  */
 ]
 
 export function Testimonials() {

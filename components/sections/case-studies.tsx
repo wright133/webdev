@@ -20,6 +20,7 @@ const projects = [
     techStack: ["Next.js", "Tailwind CSS", "Stripe"],
     oldImage: "/outdated-restaurant-website-grayscale.png",
     newImage: "/modern-restaurant-website-purple.png",
+    oneImage: "/project-screenshots/irent.png", 
     featured: true,
     rebuild: false, 
   },
@@ -37,7 +38,9 @@ const projects = [
     newImage: "/purple-creative-portfolio.png",
     featured: false,
     rebuild: false, 
+    miscText: "To respect client confidentiality, I won’t show the original image and will use my own placeholder template instead.",
   },
+  /*
   {
     id: 3,
     title: "SaaS Landing Page",
@@ -68,6 +71,7 @@ const projects = [
     featured: false,
     rebuild: false, 
   },
+  */
 ]
 
 export function CaseStudies() {
@@ -148,7 +152,7 @@ export function CaseStudies() {
                         >
                           {project.title}
                         </motion.h3>
-                        <p className="text-muted-foreground">{project.description}</p>
+                        <p className="text-muted-foreground">{project.description} {project.miscText}</p>
                       </div>
 
                       {/* Results with animated counters */}
@@ -226,7 +230,29 @@ export function CaseStudies() {
                       animate={{ x: hoveredProject === project.id ? -10 : 0 }}
                       transition={{ duration: 0.3 }}
                     >
-                      <div className="grid grid-cols-2 gap-4">
+                      <div className="grid grid-cols-1 gap-4">
+                        <div className="space-y-5">
+                          <h4 className="text-sm font-medium text-muted-foreground">Project</h4>
+                          <motion.div
+                            className="relative overflow-hidden rounded-lg border"
+                            whileHover={{ scale: 1.05, rotateY: 5 }}
+                            transition={{ duration: 0.3 }}
+                          >
+                            {/* <img
+                              src={project.oneImage || "/placeholder.svg"}
+                              alt={`${project.title} - Before`}
+                              className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300"
+                            /> */}
+                            <img
+                              src={project.oneImage || project.newImage || "/placeholder.svg"}
+                              alt={`${project.title} - Before`}
+                              className="w-full h-full object-cover duration-300"
+                            />
+                          </motion.div>
+                        </div>
+                      </div>
+
+                      {/* <div className="grid grid-cols-2 gap-4">
                         <div className="space-y-2">
                           <h4 className="text-sm font-medium text-muted-foreground">Before</h4>
                           <motion.div
@@ -262,7 +288,8 @@ export function CaseStudies() {
                             />
                           </motion.div>
                         </div>
-                      </div>
+                      </div> */}
+
                     </motion.div>
                   </div>
                 </CardContent>
