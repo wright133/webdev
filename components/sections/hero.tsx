@@ -67,7 +67,7 @@ export function Hero() {
                 animate={isVisible ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
               >
-                I design, build, and ship{" "}
+                AI/ML Engineer<br></br>{" "}
                 <motion.span
                   className="text-gradient-purple block sm:inline"
                   animate={{
@@ -75,9 +75,9 @@ export function Hero() {
                   }}
                   transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
                 >
-                  revenue-driving websites
+                  A Full-Stack Developer<br></br>
                 </motion.span>{" "}
-                fast — with{" "}
+                {/* fast — with {" "} */}
                 <motion.span
                   className="text-gradient-purple"
                   animate={{
@@ -85,7 +85,7 @@ export function Hero() {
                   }}
                   transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut", delay: 1.5 }}
                 >
-                  JavaScript superpowers
+                  A Tech Enthusiast
                 </motion.span>
                 .
               </motion.h1>
@@ -95,7 +95,7 @@ export function Hero() {
                 animate={isVisible ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
               >
-                Web developer specializing in React, Tailwind, and modern web stacks.
+                An AI/ML enthusiast and full-stack developer from Nairobi, Kenya, exploring the fascinating world of AI and machine learning.
               </motion.p>
             </div>
 
@@ -115,7 +115,7 @@ export function Hero() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white"
-                  >
+                >
                     <Button
                       size="lg"
                       className="gradient-purple text-white hover:opacity-90 transition-all duration-300 glow-purple hover:glow-purple-strong group w-full sm:w-auto"

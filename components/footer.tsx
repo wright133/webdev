@@ -18,9 +18,9 @@ export function Footer() {
             viewport={{ once: true }}
           >
             {[
-              { icon: Github, label: "GitHub", href: "#" },
-              { icon: Linkedin, label: "LinkedIn", href: "#" },
-              { icon: Twitter, label: "Twitter", href: "#" },
+              { icon: Github, label: "GitHub", href: "https://github.com/ianwright27" },
+              { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/ian-wright-54ab7a159/" },
+              { icon: Twitter, label: "Twitter", href: "https://x.com/__IanWright__" },
               { icon: Mail, label: "Email", href: "mailto:thewian27@gmail.com" },
             ].map((social, index) => {
               const Icon = social.icon

@@ -10,6 +10,39 @@ import { ArrowRight } from "lucide-react"
 const projects = [
   {
     id: 1,
+    title: "Safi AI",
+    category: "Real Client Project",
+    description:
+      "Safi AI is a neighborhood-level air-quality early warning system focused on predicting smoke pollution events. The AI tool predicts the probability of smoke occurrence before exposure happens, allowing residents to make safer decisions and necessary adjustments in areas prone to air pollution. A real-world web app built for a client in the environmental health sector",
+    problem: "Needed AI web application frontend for a trained model.",
+    solution: "A responsive application built with modern web technologies",
+    results: ["seamless interaction across platforms", "0.2s average page load", "Intuitive UI/UX design"],
+    techStack: ["React", "Railway", "Python", "SQLite"],
+    oldImage: "/placeholder-e428y.png",
+    newImage: "/safi-ai-landing-page.png",
+    featured: false,
+    rebuild: false, 
+    link: "https://safi-ai.vercel.app/", 
+    miscText: "(AI / Machine Learning).",
+  },
+  {
+    id: 2,
+    title: "A Professional's Portfolio",
+    category: "Real Client Project",
+    description:
+      "Portfolio website for a legal professional with great UI/UX and color theme.",
+    problem: "Legal professional needed to improve their online presence.",
+    solution: "A stunning interactive portfolio with a great UI/UX for the specific industry.",
+    results: ["50% increase in inquiries", "Stronger personal brand", "A wider audience"],
+    techStack: ["Next.js", "Three.js", "Tailwind CSS", "Vercel"],
+    oldImage: "/basic-portfolio-grayscale.png",
+    newImage: "/advocate-portfolio-page.png",
+    featured: false,
+    rebuild: false, 
+    miscText: "To respect client confidentiality, I won’t show the front image and will censor logo or names (the link is disabled for now).", 
+  },
+  {
+    id: 3,
     title: "Custom Web Application for a startup",
     category: "Real Client Project",
     description:
@@ -23,39 +56,9 @@ const projects = [
     oneImage: "/project-screenshots/irent.png", 
     featured: true,
     rebuild: false, 
-  },
-  {
-    id: 2,
-    title: "Personal Brand Site",
-    category: "Real Client Project",
-    description:
-      "Portfolio website for a legal professional with great UI/UX and color theme.",
-    problem: "Legal professional needed to improve their online presence.",
-    solution: "A stunning interactive portfolio with a great UI/UX for the specific industry.",
-    results: ["50% increase in inquiries", "Stronger personal brand", "A wider audience"],
-    techStack: ["Next.js", "Three.js", "Tailwind CSS", "Vercel"],
-    oldImage: "/basic-portfolio-grayscale.png",
-    newImage: "/purple-creative-portfolio.png",
-    featured: false,
-    rebuild: false, 
-    miscText: "To respect client confidentiality, I won’t show the original image and will use my own placeholder template instead.",
-  },
+  }, 
+
   /*
-  {
-    id: 3,
-    title: "SaaS Landing Page",
-    category: "Demo Project",
-    description:
-      "High-converting landing page for a fictional AI productivity tool with advanced animations and conversion optimization.",
-    problem: "Need for high-converting SaaS landing page",
-    solution: "Conversion-optimized design with social proof and clear value proposition",
-    results: ["12% conversion rate", "2.3s average page load", "95+ Lighthouse score"],
-    techStack: ["React", "Framer Motion", "Tailwind CSS", "TypeScript"],
-    oldImage: "/placeholder-e428y.png",
-    newImage: "/modern-saas-landing-page-purple.png",
-    featured: false,
-    rebuild: false, 
-  },
   {
     id: 4,
     title: "E-commerce Store",
@@ -103,7 +106,7 @@ export function CaseStudies() {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Real client transformations and demo projects showcasing modern web development.
+            Real client projects showcasing modern web development and results.
           </motion.p>
         </motion.div>
 
@@ -209,7 +212,7 @@ export function CaseStudies() {
                         transition={{ type: "spring", stiffness: 400, damping: 17 }}
                       >
                         <Button className="gradient-purple text-white hover:opacity-90 group">
-                          Visit Website
+                          <a href={project.link} target="_blank">Visit Website</a>
                           <motion.div
                             className="ml-2"
                             animate={{ x: hoveredProject === project.id ? [0, 5, 0] : 0 }}

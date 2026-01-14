@@ -21,7 +21,7 @@ const skills = [
   // "Docker",
   "Git",
   // "Figma",
-  "AI Integration",
+  "AI Tools",
   "API Development",
 ]
 
@@ -37,12 +37,12 @@ const timeline = [
     description: "Expanded into backend development and database design",
   },
   {
-    year: "2023",
-    title: "AI Integration",
+    year: "2024",
+    title: "AI Tools",
     description: "Started incorporating AI tools into development workflow",
   },
   {
-    year: "2025",
+    year: "2026",
     title: "AI-Powered Full Stack Development",
     description: "Now building and remastering client sites with modern tech stacks and intergrating AI-powered solutions where necessary.",
   },
@@ -79,14 +79,16 @@ export function About() {
                 transition={{ duration: 0.6, delay: 0.3 }}
               >
                 <p>
-                  I'm a full-stack developer who transforms businesses through premium web experiences. With 3+ years of
-                  experience, I specialize in building revenue-driving websites that combine cutting-edge technology
-                  with AI-powered efficiency.
+                  I'm a developer who transforms businesses through quality web experiences. With 3+ years of
+                  experience, I specialize in building impactful web applications with cutting-edge technology.
                 </p>
                 <p>
-                  My approach is simple: understand your business goals, design with purpose, and deliver solutions that
-                  not only look stunning but drive real results. I leverage modern frameworks and AI tools to build
+                  My approach is simple: to understand your business goals, design with purpose, and to deliver solutions that
+                  not only look stunning but <strong>drive real results</strong>. I leverage modern frameworks and AI tools to build
                   faster without compromising quality.
+                <br></br>
+                <br></br>
+                  I am available for freelance projects and full-time opportunities.
                 </p>
               </motion.div>
             </div>

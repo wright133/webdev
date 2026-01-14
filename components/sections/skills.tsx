@@ -9,27 +9,27 @@ const skillCategories = [
   {
     title: "Frontend Development",
     skills: [
-      { name: "React/Next.js", level: 95, icon: "⚛️" },
-      { name: "TypeScript", level: 90, icon: "📘" },
-      { name: "Tailwind CSS", level: 95, icon: "🎨" },
-      { name: "Framer Motion", level: 85, icon: "🎭" },
+      { name: "React/Next.js", level: 70, icon: "⚛️" },
+      { name: "TypeScript", level: 55, icon: "📘" },
+      { name: "Tailwind CSS", level: 70, icon: "🎨" },
+      { name: "Framer Motion", level: 60, icon: "🎭" },
     ],
   },
   {
     title: "Backend Development",
     skills: [
-      { name: "Node.js", level: 88, icon: "🟢" },
-      { name: "Python", level: 82, icon: "🐍" },
-      { name: "API Development", level: 90, icon: "🔌" },
-      { name: "Database Design", level: 85, icon: "🗄️" },
+      { name: "Node.js", level: 73, icon: "🟢" },
+      { name: "Python", level: 90, icon: "🐍" },
+      { name: "API Development", level: 85, icon: "🔌" },
+      { name: "Database Design", level: 80, icon: "🗄️" },
     ],
   },
   {
     title: "Tools & Platforms",
     skills: [
-      { name: "Vercel/AWS", level: 90, icon: "☁️" },
-      { name: "Git/GitHub", level: 95, icon: "📚" },
-      { name: "WordPress", level: 98, icon: "🌐" }, 
+      { name: "Vercel/AWS", level: 85, icon: "☁️" },
+      { name: "Git/GitHub", level: 90, icon: "📚" },
+      { name: "WordPress", level: 93, icon: "🌐" }, 
       // { name: "Docker", level: 75, icon: "🐳" },
       // { name: "Figma", level: 80, icon: "🎯" },
     ],
@@ -37,11 +37,11 @@ const skillCategories = [
   {
     title: "AI & Modern Web",
     skills: [
-      { name: "AI Integration", level: 88, icon: "🤖" },
-      { name: "p5.js", level: 90, icon: "🎮" },
-      { name: "Three.js", level: 78, icon: "🎮" },
-      { name: "Performance Optimization", level: 92, icon: "⚡" },
-      { name: "SEO/Analytics", level: 85, icon: "📊" },
+      { name: "AI Integration", level: 74, icon: "🤖" },
+      { name: "HTML5 Canvas / p5.js", level: 85, icon: "🎮" },
+      { name: "Three.js", level: 56, icon: "🎮" },
+      { name: "Performance Optimization", level: 73, icon: "⚡" },
+      { name: "SEO/Analytics", level: 78, icon: "📊" },
     ],
   },
 ]

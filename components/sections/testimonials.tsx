@@ -8,23 +8,23 @@ import { Star } from "lucide-react"
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    role: "Restaurant Owner",
-    company: "Bella Vista Bistro",
+    name: "Safi AI",
+    role: "Tech Founder",
+    company: "Safi AI",
     content:
-      "Ian transformed our outdated website into a modern masterpiece. Online orders increased by 40% in the first month alone. His attention to detail and understanding of our business needs was exceptional.",
+      "Ian developed our AI tool. His expertise in both AI engineering and web design transformed our vision into a user-friendly platform. The latest version of our app not only looks great but also performs exceptionally well, from the model training to deployment. It's remarkable. I highly recommend Ian for any project that requires AI, data science, or web development.",
     rating: 5,
-    image: "/professional-woman-headshot.png",
+    image: "/safi-ai-logo.png",
   },
   {
     id: 2,
-    name: "Michael Chen",
-    role: "Startup Founder",
-    company: "TechFlow Solutions",
+    name: "** confidential **",
+    role: "Advocate",
+    company: "Law Society of Kenya",
     content:
-      "Working with Ian was a game-changer for our startup. He delivered a high-converting landing page that helped us secure our Series A funding. The AI-powered optimizations were incredible.",
+      "Ian transformed my online presence with a great website that perfectly captures my professional identity. I've seen a significant increase in client inquiries and engagement. His ability to understand one's needs is remarkable. I highly recommend his services to anyone looking to elevate their online profile.",
     rating: 5,
-    image: "/professional-man-headshot.png",
+    image: "/law-and-order-placeholder.jpg",
   },
   /*
   {

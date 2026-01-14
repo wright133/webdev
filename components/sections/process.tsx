@@ -118,7 +118,7 @@ export function Process() {
                     </div>
                   </div>
 
-                  <Card className="hover:glow-purple transition-all duration-300 hover:scale-105 h-full">
+                  <Card className="hover:glow-purple transition-all duration-300 hover:scale-105 h-133">
                     <CardContent className="p-4 sm:p-6 text-center flex flex-col h-full">
                       <motion.div
                         initial={{ opacity: 0, scale: 0.8 }}

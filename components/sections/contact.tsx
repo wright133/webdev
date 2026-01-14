@@ -20,7 +20,7 @@ export function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    const subject = encodeURIComponent(`New inquiry from ${formData.name}`)
+    const subject = encodeURIComponent(`Client Request: New inquiry from ${formData.name}`)
     const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)
     window.location.href = `mailto:thewian27@gmail.com?subject=${subject}&body=${body}`
   }
@@ -88,8 +88,7 @@ export function Contact() {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Ready to transform your digital presence? Let's discuss your project and create something extraordinary
-            together.
+            Ready to transform your digital presence? Let's discuss your project and create something extraordinary.
           </motion.p>
         </motion.div>
 
@@ -168,7 +167,8 @@ export function Contact() {
                   <div className="flex-1">
                     <h4 className="font-semibold mb-2">Send an Email</h4>
                     <p className="text-muted-foreground text-sm mb-4">
-                      Prefer email? Send me a message and I'll get back to you within 24 hours.
+                      Prefer email? Send me a message and I'll get back to you within 24 hours. I am always excited to
+                      hear about new projects and opportunities. 
                     </p>
                     <Button
                       variant="outline"
