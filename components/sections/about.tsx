@@ -13,16 +13,15 @@ const skills = [
   "Python",
   "MySQL",
   // "PostgreSQL",
-  "MongoDB",
-  "Framer Motion",
+  // "Framer Motion",
   "Three.js",
-  "Vercel",
+  "Vercel / Netflify",
   // "AWS",
   // "Docker",
   "Git",
   // "Figma",
   "AI Tools",
-  "API Development",
+  "FastAPI",
 ]
 
 const timeline = [
